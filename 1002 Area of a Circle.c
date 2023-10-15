@@ -1,9 +1,12 @@
 #include<stdio.h>
 int main () {
-    int a, b, product;
-    scanf("%d %d", &a &b);
-    product = a*b;
-    printf(" PROD = %d", product);
+    double radius, area;
+    scanf("%lf", &radius);
+
+    area = 3.14159 * radius * radius;
+    printf("A=%.4lf\n", area);
 
     return 0;
+
+
 }
